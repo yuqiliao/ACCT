@@ -8,5 +8,7 @@
   HUGO_ENABLEGITINFO = "true"
   HUGO_BASEURL = "/"
 
+## add password protection during developing phase
+# https://developer.aliyun.com/mirror/npm/package/netlify-plugin-password-protection
 [[plugins]]
   package = "netlify-plugin-password-protection"
